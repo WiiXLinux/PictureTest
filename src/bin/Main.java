@@ -7,9 +7,9 @@ import java.awt.Color;
 public class Main {
     public static void main(String[]args) {
 
-        Picture picture = new Picture("D:/Downloads/eq75yvnzjvj71.jpg");
+        Picture picture = new Picture(args[0]);
 
-        String filename = "D:/Downloads/eq75yvnzjvj71.jpg";
+        String filename = args[0];
         String[] filename_array = {filename,filename,filename};
 
         Picture[] rgb = new Picture[3];
