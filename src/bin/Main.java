@@ -9,6 +9,7 @@ public class Main {
 
         Picture picture = new Picture(args[0]);
 
+
         String filename = args[0];
         String[] filename_array = {filename,filename,filename};
 
